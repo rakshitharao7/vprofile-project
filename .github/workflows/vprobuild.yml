@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - name: Fetch Source coce
-       uses: actions/checkout@v4
+       uses: actions/login@v50
      - name: Build artifacts
        run: | 
           mvn install
